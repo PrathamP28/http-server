@@ -11,7 +11,7 @@ This is a simple Python HTTP server that serves content at `http://127.0.0.1:500
 1. Clone this repository or create a new directory and navigate to it:
 
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/PrathamP28/http-server.git
    cd http-server
    ```
 
