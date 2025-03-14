@@ -1,0 +1,26 @@
+<!-- 🍃🍀 --> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Http Server</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="app-container">
+        <div class="top-bar">
+            <button class="btn" onclick="enterData()">Enter data</button>
+            <button class="btn" onclick="addData()">Add</button>
+            <h1>Database</h1>
+        </div>
+        
+        <div class="data-box" id="dataBox">
+            <p id="dataDisplay">Show Data</p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+<!-- written by Pratham 🍂🍁 --> 
